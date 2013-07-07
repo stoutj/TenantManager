@@ -1,0 +1,39 @@
+<% if @rental_app.errors.any? %>
+    <div class='error'>
+      <ul>
+        <% @rental_app.errors.full_messages.each do |msg| %>
+            <li><%= msg %></li>
+        <% end %>
+      </ul>
+    </div>
+<% end %>
+
+
+<%= form_for @rental_app do |f| %>
+    <div>
+      <%=	 f.label :firstname %>
+      <%=     f.text_field :firstname %>
+    </div>
+
+    <div>
+      <%=	 f.label :lastname %>
+      <%=     f.text_field :lastname %>
+    </div>
+
+     <div>
+      <%=	 f.label :email %>
+      <%=     f.text_field :email %>
+    </div>
+
+    <div>
+      <%=	 f.label :propertyaddress %>
+      <%=     f.text_field :propertyaddress %>
+    </div>
+
+    <div>
+      <%=	 f.label :home_phone %>
+      <%=     f.text_field :home_phone %>
+    </div>
+
+    <%= f.submit ('Sign Up') %>
+<% end %>
