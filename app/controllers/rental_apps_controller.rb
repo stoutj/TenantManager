@@ -19,4 +19,5 @@ class RentalAppsController < ApplicationController
     def show
       @rental_app = RentalApp.find(params[:id])
     end
+
 end
