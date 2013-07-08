@@ -1,112 +1,121 @@
-<% if @rental_app.errors.any? %>
-    <div class='error'>
-      <ul>
-        <% @rental_app.errors.full_messages.each do |msg| %>
-            <li><%= msg %></li>
-        <% end %>
-      </ul>
+<div class='new-rental_app-content container'>
+  <div class='push-5 span-14'>
+        <h1>New Application</h1>
+        <h5>Go ahead, fill out your application </h5>
+
+
+
+        <% if @rental_app.errors.any? %>
+        <div class='error'>
+          <ul>
+            <% @rental_app.errors.full_messages.each do |msg| %>
+                <li><%= msg %></li>
+            <% end %>
+          </ul>
+        </div>
+    <% end %>
+
+
+    <%= form_for @rental_app do |f| %>
+        <div>
+          <%=	 f.label :firstname %>
+          <%=     f.text_field :firstname %>
+        </div>
+
+        <div>
+          <%=	 f.label :lastname %>
+          <%=     f.text_field :lastname %>
+        </div>
+
+         <div>
+          <%=	 f.label :email %>
+          <%=     f.text_field :email %>
+        </div>
+
+        <div>
+          <%=	 f.label :propertyaddress %>
+          <%=     f.text_field :propertyaddress %>
+        </div>
+
+        <div>
+          <%=	 f.label :home_phone %>
+          <%=     f.text_field :home_phone %>
+        </div>
+
+        <div>
+          <%=	 f.label :work_phone %>
+          <%=     f.text_field :work_phone %>
+        </div>
+
+        <div>
+          <%=	 f.label :date_of_birth %>
+          <%=     f.text_field :date_of_birth %>
+        </div>
+
+        <div>
+          <%=	 f.label :drivers_license_or_ID %>
+          <%=     f.text_field :state_id_number %>
+        </div>
+
+        <div>
+          <%=	 f.label :state_id_issued_in %>
+          <%=     f.text_field :state_issued %>
+        </div>
+
+        <div>
+          <%=	 f.label :current_employer_name %>
+          <%=     f.text_field :current_employer_name %>
+        </div>
+
+        <div>
+          <%=	 f.label :current_employer_address %>
+          <%=     f.text_field :current_employer_address %>
+        </div>
+
+        <div>
+          <%=	 f.label :current_employer_phone %>
+          <%=     f.text_field :current_employer_phone %>
+        </div>
+
+        <div>
+          <%=	 f.label :current_employer_length_of_employ %>
+          <%=     f.text_field :current_employer_length_of_employ %>
+        </div>
+
+        <div>
+          <%=	 f.label :current_employer_still_employed %>
+          <%=     f.text_field :current_employer_still_employed %>
+        </div>
+
+        <div>
+          <%=	 f.label :past_employer_name %>
+          <%=     f.text_field :past_employer_name %>
+        </div>
+
+        <div>
+          <%=	 f.label :past_employer_address %>
+          <%=     f.text_field :past_employer_address %>
+        </div>
+
+        <div>
+          <%=	 f.label :past_employer_phone %>
+          <%=     f.text_field :past_employer_phone %>
+        </div>
+
+        <div>
+          <%=	 f.label :past_employer_start_date %>
+          <%=     f.text_field :past_employer_start_date %>
+        </div>
+
+        <div>
+          <%=	 f.label :past_employer_end_date %>
+          <%=     f.text_field :past_employer_end_date %>
+        </div>
+
+
+
+
+        <%= f.submit ('Sign Up') %>
+    <% end %>
     </div>
-<% end %>
-
-
-<%= form_for @rental_app do |f| %>
-    <div>
-      <%=	 f.label :firstname %>
-      <%=     f.text_field :firstname %>
-    </div>
-
-    <div>
-      <%=	 f.label :lastname %>
-      <%=     f.text_field :lastname %>
-    </div>
-
-     <div>
-      <%=	 f.label :email %>
-      <%=     f.text_field :email %>
-    </div>
-
-    <div>
-      <%=	 f.label :propertyaddress %>
-      <%=     f.text_field :propertyaddress %>
-    </div>
-
-    <div>
-      <%=	 f.label :home_phone %>
-      <%=     f.text_field :home_phone %>
-    </div>
-
-    <div>
-      <%=	 f.label :work_phone %>
-      <%=     f.text_field :work_phone %>
-    </div>
-
-    <div>
-      <%=	 f.label :date_of_birth %>
-      <%=     f.text_field :date_of_birth %>
-    </div>
-
-    <div>
-      <%=	 f.label :drivers_license_or_ID %>
-      <%=     f.text_field :state_id_number %>
-    </div>
-
-    <div>
-      <%=	 f.label :state_id_issued_in %>
-      <%=     f.text_field :state_issued %>
-    </div>
-
-    <div>
-      <%=	 f.label :current_employer_name %>
-      <%=     f.text_field :current_employer_name %>
-    </div>
-
-    <div>
-      <%=	 f.label :current_employer_address %>
-      <%=     f.text_field :current_employer_address %>
-    </div>
-
-    <div>
-      <%=	 f.label :current_employer_phone %>
-      <%=     f.text_field :current_employer_phone %>
-    </div>
-
-    <div>
-      <%=	 f.label :current_employer_length_of_employ %>
-      <%=     f.text_field :current_employer_length_of_employ %>
-    </div>
-
-    <div>
-      <%=	 f.label :current_employer_still_employed %>
-      <%=     f.text_field :current_employer_still_employed %>
-    </div>
-
-    <div>
-      <%=	 f.label :past_employer_name %>
-      <%=     f.text_field :past_employer_name %>
-    </div>
-
-    <div>
-      <%=	 f.label :past_employer_address %>
-      <%=     f.text_field :past_employer_address %>
-    </div>
-
-    <div>
-      <%=	 f.label :past_employer_phone %>
-      <%=     f.text_field :past_employer_phone %>
-    </div>
-
-    <div>
-      <%=	 f.label :past_employer_start_date %>
-      <%=     f.text_field :past_employer_start_date %>
-    </div>
-
-    <div>
-      <%=	 f.label :past_employer_end_date %>
-      <%=     f.text_field :past_employer_end_date %>
-    </div>
-
-
-
-
-    <%= f.submit ('Sign Up') %>
-<% end %>
+</div>
