@@ -18,6 +18,7 @@ feature "Fillout Application Feature Test" do
       fill_in 'Lastname', with: 'smith'
       fill_in 'Email', with: 'dhh@example'
       fill_in 'Propertyaddress', with: '1234 St Road'
+      fill_in 'Home phone', with: '734-555-1212'
       click_on 'Sign Up'
     end
     myapp = RentalApp.last
@@ -28,9 +29,8 @@ feature "Fillout Application Feature Test" do
     myapp.valid?.must_equal true
     RentalApp.count.must_equal 1
     current_path.must_equal rental_app_path(RentalApp.last)
-    rentalapp = RentalApp.last
-    page.must_have_content rentalapp.firstname
-    page.must_have_content rentalapp.email
+    page.must_have_content myapp.firstname
+    page.must_have_content myapp.email
   end
 
 
