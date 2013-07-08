@@ -13,4 +13,5 @@ class RentalApp < ActiveRecord::Base
   validates :propertyaddress, presence:true
   validates :home_phone, presence: true
 
+
 end
