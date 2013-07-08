@@ -1,0 +1,50 @@
+@import "variables";
+
+form {
+  label {
+    display: block;
+    color: $color-burnt-orange;
+    font-weight: normal;
+  }
+
+  .actions {
+    border-top: solid 1px $color-burnt-orange;
+    padding-top: 10px;
+  }
+
+  .field.inline {
+    float: left;
+    padding-right: 20px;
+
+    &.last {
+      float: right;
+    }
+  }
+
+  .field.last {
+    padding-bottom: 10px;
+  }
+
+  .field input {
+    width: 95%;
+  }
+
+  .field.half {
+    width: 45%;
+  }
+}
+
+input[type=text], input[type=password], a.btn {
+  border: solid 1px $color-burnt-orange;
+  background: $color-burnt-orange;
+  color: $color-orange;
+  font-size: 16px;
+  padding: 10px;
+}
+
+input[type=submit] {
+  border: solid 1px $color-burnt-orange;
+  background: $color-burnt-orange;
+  color: $color-white;
+  padding: 10px 20px;
+}
