@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130707132819) do
+ActiveRecord::Schema.define(:version => 20130709010653) do
 
   create_table "properties", :force => true do |t|
     t.string   "address"
@@ -42,6 +42,13 @@ ActiveRecord::Schema.define(:version => 20130707132819) do
     t.string   "past_employer_phone"
     t.string   "past_employer_start_date"
     t.string   "past_employer_end_date"
+    t.string   "employment_income"
+    t.string   "other_income"
+    t.string   "smoke"
+    t.string   "eviction_history"
+    t.string   "criminal_history"
+    t.string   "bankruptcy"
+    t.text     "comments"
   end
 
 end
