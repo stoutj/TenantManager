@@ -2,9 +2,9 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.13'
 
-#gem 'sqlite3' #used for local testing and dev
-#gem 'pg' #used for publishing on Heroku
-gem 'pg'
+gem 'sqlite3' #used for local testing and dev
+gem 'pg' #used for publishing on Heroku
+
 
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
