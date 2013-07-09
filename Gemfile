@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.13'
 
-gem 'sqlite3' #used for local testing and dev
+#gem 'sqlite3' #used for local testing and dev
 gem 'pg' #used for publishing on Heroku
 
 

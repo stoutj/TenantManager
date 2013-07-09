@@ -3,17 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="408c5369-9a73-4fc3-bf45-619ce3157300" name="Default" comment="">
       <change type="DELETED" beforePath="D:\stoutj\RubymineProjects\RubyClass\TenantManager\app\assets\images\bird.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/TenantManager.iml" afterPath="$PROJECT_DIR$/.idea/TenantManager.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/production.rb" afterPath="$PROJECT_DIR$/config/environments/production.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TenantManager.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="408c5369-9a73-4fc3-bf45-619ce3157300" time="1373333673172" ignored="false" />
     <file path="/show.html.erb" changelist="408c5369-9a73-4fc3-bf45-619ce3157300" time="1373312913297" ignored="false" />
-    <file path="/Gemfile" changelist="408c5369-9a73-4fc3-bf45-619ce3157300" time="1373343803638" ignored="false" />
+    <file path="/Gemfile" changelist="408c5369-9a73-4fc3-bf45-619ce3157300" time="1373345083662" ignored="false" />
     <file path="/fill_out_app_test.rb" changelist="408c5369-9a73-4fc3-bf45-619ce3157300" time="1373314645175" ignored="false" />
     <file path="/new.html.erb" changelist="408c5369-9a73-4fc3-bf45-619ce3157300" time="1373333594733" ignored="false" />
     <file path="/application.html.erb" changelist="408c5369-9a73-4fc3-bf45-619ce3157300" time="1373319085516" ignored="false" />
@@ -23,7 +19,8 @@
     <file path="/20130709004201_add_income_to_rental_app.rb" changelist="408c5369-9a73-4fc3-bf45-619ce3157300" time="1373332463684" ignored="false" />
     <file path="/_form.css.scss" changelist="408c5369-9a73-4fc3-bf45-619ce3157300" time="1373331494772" ignored="false" />
     <file path="/20130709010653_change_explanation_to_comments.rb" changelist="408c5369-9a73-4fc3-bf45-619ce3157300" time="1373332784406" ignored="false" />
-    <file path="/production.rb" changelist="408c5369-9a73-4fc3-bf45-619ce3157300" time="1373344944785" ignored="false" />
+    <file path="/production.rb" changelist="408c5369-9a73-4fc3-bf45-619ce3157300" time="1373344950176" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="408c5369-9a73-4fc3-bf45-619ce3157300" time="1373345086349" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,19 +49,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="140" selection-end="140" vertical-scroll-proportion="0.0">
+            <state line="4" column="1" selection-start="55" selection-end="55" vertical-scroll-proportion="0.196868">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="production.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="production.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="30" selection-start="646" selection-end="646" vertical-scroll-proportion="0.83668905">
+            <state line="17" column="30" selection-start="646" selection-end="646" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -135,8 +132,8 @@
         <option value="$PROJECT_DIR$/db/migrate/20130709004201_add_income_to_rental_app.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20130709010653_change_explanation_to_comments.rb" />
         <option value="$PROJECT_DIR$/app/views/rental_apps/new.html.erb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
   </component>
@@ -787,7 +784,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="6" width="1580" height="860" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32971507" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32971507" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -798,7 +795,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32971507" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32971507" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32971507" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32971507" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -952,16 +949,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
+    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="140" selection-end="140" vertical-scroll-proportion="0.0">
+        <state line="17" column="30" selection-start="646" selection-end="646" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+    <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="30" selection-start="646" selection-end="646" vertical-scroll-proportion="0.83668905">
+        <state line="4" column="1" selection-start="55" selection-end="55" vertical-scroll-proportion="0.196868">
           <folding />
         </state>
       </provider>
