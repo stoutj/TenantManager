@@ -25,6 +25,18 @@
         </library>
       </libraries>
     </data-source>
+    <data-source source="LOCAL" name="Rails TenantManager: production" product="SQLite" version="3.7.2" jdbc-version="2.1" driver-name="SQLiteJDBC" driver-version="native" uuid="a6b8dbab-bfda-4aa0-89d4-a42964788d3d">
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:D:\stoutj\RubymineProjects\RubyClass\TenantManager\db\production.sqlite3</jdbc-url>
+      <libraries>
+        <library>
+          <url>file://$USER_HOME$/.RubyMine50/config/jdbc-drivers/xerial-sqlite-license.txt</url>
+        </library>
+        <library>
+          <url>file://$USER_HOME$/.RubyMine50/config/jdbc-drivers/sqlite-jdbc-3.7.2.jar</url>
+        </library>
+      </libraries>
+    </data-source>
   </component>
 </project>
 

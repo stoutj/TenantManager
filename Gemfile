@@ -17,6 +17,7 @@ gem 'jquery-rails'
 gem 'sorcery'
 
 group :development, :test do
+  gem 'sqlite3' #used for local testing and dev
   gem 'minitest-rails'
   gem 'factory_girl_rails'
   gem 'm'
