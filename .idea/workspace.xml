@@ -2,20 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="408c5369-9a73-4fc3-bf45-619ce3157300" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/factories/property.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/factories/rental_app.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.generators" afterPath="$PROJECT_DIR$/.idea/.generators" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/features/fill_out_app_test.rb" afterPath="$PROJECT_DIR$/test/features/fill_out_app_test.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/rental_apps/new.html.erb" afterPath="$PROJECT_DIR$/app/views/rental_apps/new.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/property.rb" afterPath="$PROJECT_DIR$/app/models/property.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/rental_app.rb" afterPath="$PROJECT_DIR$/app/models/rental_app.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/rental_apps_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/rental_apps_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TenantManager.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="408c5369-9a73-4fc3-bf45-619ce3157300" time="1374116021328" ignored="false" />
+    <file path="/Dummy.txt" changelist="408c5369-9a73-4fc3-bf45-619ce3157300" time="1374118155265" ignored="false" />
     <file path="/show.html.erb" changelist="408c5369-9a73-4fc3-bf45-619ce3157300" time="1373782452203" ignored="false" />
     <file path="/Gemfile" changelist="408c5369-9a73-4fc3-bf45-619ce3157300" time="1373345083662" ignored="false" />
     <file path="/fill_out_app_test.rb" changelist="408c5369-9a73-4fc3-bf45-619ce3157300" time="1374117883078" ignored="false" />
@@ -91,7 +82,7 @@
       <file leaf-file-name="fill_out_app_test.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/features/fill_out_app_test.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="50" selection-start="1619" selection-end="1619" vertical-scroll-proportion="2.643777">
+            <state line="56" column="50" selection-start="1619" selection-end="1619" vertical-scroll-proportion="2.6551723">
               <folding />
             </state>
           </provider>
@@ -875,28 +866,32 @@
       <created>1373782536406</created>
       <updated>1373782536406</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Adding Properties">
+      <created>1374118158625</created>
+      <updated>1374118158625</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1608" height="880" extended-state="6" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32971507" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26769626" sideWeight="0.6758893" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26769626" sideWeight="0.67503303" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3989432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32971507" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3241107" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32496697" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32760897" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -998,7 +993,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/factories/rental_app.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="12" selection-start="281" selection-end="281" vertical-scroll-proportion="0.0" />
+        <state line="9" column="12" selection-start="281" selection-end="281" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/script/rails">
@@ -1081,7 +1078,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/features/fill_out_app_test.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="50" selection-start="1619" selection-end="1619" vertical-scroll-proportion="2.643777">
+        <state line="56" column="50" selection-start="1619" selection-end="1619" vertical-scroll-proportion="2.6551723">
           <folding />
         </state>
       </provider>
