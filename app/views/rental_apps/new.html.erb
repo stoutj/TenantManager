@@ -16,7 +16,7 @@
     <% end %>
 
 
-    <%= form_for @rental_app do |f| %>
+    <%= form_for ([@prop, @rental_app]) do |f| %>
         <div>
           <%=	 f.label :firstname %>
           <%=     f.text_field :firstname %>

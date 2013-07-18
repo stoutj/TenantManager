@@ -1,7 +1,7 @@
 class Property < ActiveRecord::Base
-  attr_accessible :address, :rentalapps
+  attr_accessible :address
 
-  has_many :rentalapps
+  has_many :rental_apps
 
   validates :address, presence: true
 

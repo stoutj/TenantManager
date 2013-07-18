@@ -6,6 +6,7 @@ class RentalApp < ActiveRecord::Base
   attr_accessible  :past_employer_phone, :past_employer_start_date, :past_employer_end_date
   attr_accessible  :employment_income, :other_income, :smoke, :eviction_history, :criminal_history
   attr_accessible  :bankruptcy, :comments
+
   belongs_to :property
 
   validates :email, format: { with: /@/ }, presence: true
