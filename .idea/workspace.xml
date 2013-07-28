@@ -4,33 +4,12 @@
     <bookmark url="file://$PROJECT_DIR$/app/views/properties/_property_name.html.erb" description="h1&gt;&#10;    &#10;  &lt;" line="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="408c5369-9a73-4fc3-bf45-619ce3157300" name="Default" comment="Adding Landlords">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/properties/_properties.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/properties/_property_name.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/rental_apps/_rentalapp_name.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/rental_apps/_rentalapps.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/features/creating_a_landlord_test.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/features/display_properties_test.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/properties/empty.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/properties/index.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/rental_apps/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/features/create_property_test.rb" afterPath="$PROJECT_DIR$/test/features/create_property_test.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/features/fill_out_app_test.rb" afterPath="$PROJECT_DIR$/test/features/fill_out_app_test.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/properties/new.html.erb" afterPath="$PROJECT_DIR$/app/views/properties/new.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/properties_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/properties_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/property.rb" afterPath="$PROJECT_DIR$/app/models/property.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/factories/property.rb" afterPath="$PROJECT_DIR$/test/factories/property.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/rental_apps_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/rental_apps_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/properties/show.html.erb" afterPath="$PROJECT_DIR$/app/views/properties/show.html.erb" />
+    <list default="true" id="408c5369-9a73-4fc3-bf45-619ce3157300" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TenantManager.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="408c5369-9a73-4fc3-bf45-619ce3157300" time="1374930555328" ignored="false" />
+    <file path="/Dummy.txt" changelist="408c5369-9a73-4fc3-bf45-619ce3157300" time="1375038568875" ignored="false" />
     <file path="/show.html.erb" changelist="408c5369-9a73-4fc3-bf45-619ce3157300" time="1374714095483" ignored="false" />
     <file path="/Gemfile" changelist="408c5369-9a73-4fc3-bf45-619ce3157300" time="1374328814031" ignored="false" />
     <file path="/fill_out_app_test.rb" changelist="408c5369-9a73-4fc3-bf45-619ce3157300" time="1374331698296" ignored="false" />
@@ -202,7 +181,7 @@
       <file leaf-file-name="rental_apps_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/rental_apps_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="13" selection-start="180" selection-end="180" vertical-scroll-proportion="0.4074074">
+            <state line="7" column="13" selection-start="180" selection-end="180" vertical-scroll-proportion="0.3377193">
               <folding />
             </state>
           </provider>
@@ -221,6 +200,11 @@
     <option name="ENVIRONMENT" value="development" />
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="James Stout" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitLogSettings">
@@ -955,28 +939,32 @@
       <created>1374127422125</created>
       <updated>1374127422125</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Adding Landlords">
+      <created>1375038445500</created>
+      <updated>1375038445500</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1600" height="872" extended-state="0" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32843792" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32971507" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3257677" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29172057" sideWeight="0.5674232" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29172057" sideWeight="0.6715621" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20160213" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32971507" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.43257678" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43257678" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39946738" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -1024,7 +1012,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding Landlords" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ugly but working showing lists of properties and list of applications for the property" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1045,6 +1033,7 @@
     <MESSAGE value="Finalizing the new application view and model." />
     <MESSAGE value="Adding Properties" />
     <MESSAGE value="Adding Landlords" />
+    <MESSAGE value="Ugly but working showing lists of properties and list of applications for the property" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1174,7 +1163,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/rental_apps_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="13" selection-start="180" selection-end="180" vertical-scroll-proportion="0.4074074">
+        <state line="7" column="13" selection-start="180" selection-end="180" vertical-scroll-proportion="0.3377193">
           <folding />
         </state>
       </provider>
