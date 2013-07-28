@@ -1,0 +1,6 @@
+<div class='span-5 wishlist-sidebar-list'>
+  <h2>Rental Apps</h2>
+  <ul>
+    <% @property.rental_apps.each do |rentalapp| %>
+        <%= render partial: 'rental_apps/rentalapp_name', locals: { rentalapp: rentalapp} %>
+<% end %>

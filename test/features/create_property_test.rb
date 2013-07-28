@@ -13,11 +13,15 @@ feature 'Creating A Property Feature Test' do
 
   scenario 'creating a property with valid data' do
     fill_in 'Address', with: '1234 St. Road'
+    fill_in 'Zipcode', with: '49270'
     click_on 'Register Property'
+    #puts page.body
 
     prop = Property.last
     prop.address.must_equal '1234 St. Road'
+    prop.zipcode.must_equal '49270'
     #frig.user_id.must_equal @user.id
+
   end
 
   scenario 'submitting an empty form' do

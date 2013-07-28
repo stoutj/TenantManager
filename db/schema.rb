@@ -11,19 +11,22 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130718051448) do
+ActiveRecord::Schema.define(:version => 20130725005708) do
 
   create_table "landlords", :force => true do |t|
     t.string   "email"
-    t.datetime "created_at",  :null => false
-    t.datetime "updated_at",  :null => false
-    t.integer  "landlord_id"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+    t.string   "password"
   end
 
   create_table "properties", :force => true do |t|
     t.string   "address"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
+    t.string   "address2"
+    t.string   "zipcode"
+    t.integer  "landlord_id"
   end
 
   create_table "rental_apps", :force => true do |t|

@@ -2,6 +2,8 @@
 
 FactoryGirl.define do
   factory :property, class: 'Property' do
-    address "1234 Road"
+    sequence(:address) {|n| "1234#{n} Road"}
+    zipcode "49270"
+    landlord
   end
 end
