@@ -8,6 +8,11 @@ feature 'Creating A Property Feature Test' do
   #end
 
   before do
+    visit new_landlord_path
+    fill_in 'Email', with: 'bubba@gump.com'
+    fill_in 'Password', with: 'p@ssword'
+    click_on 'Sign Up'
+
     visit new_property_path
   end
 

@@ -6,6 +6,8 @@ class Property < ActiveRecord::Base
 
   validates :address, presence: true
   validates :zipcode, presence: true
+  validates :landlord_id, presence: true
+
 
   def self.for(landlord)
     where(Landlord_id: landlord.id) unless landlord.nil?
